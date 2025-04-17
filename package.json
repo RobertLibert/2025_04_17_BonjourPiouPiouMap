@@ -1,10 +1,10 @@
 {                                                                                
   "name": "be.robertlibert.pioupioumap",                              
-  "displayName": "Robert Libert piou piou map,                        
+  "displayName": "Robert Libert piou piou map",                        
   "version": "0.0.1",                         
   "unity": "2018.1",                             
   "unityRelease": "",                             
-  "description": "You package description"Mon Ile pour piou piou map XR",                         
+  "description": "Mon Ile pour piou piou map XR",                         
   "keywords": ["Script","Tool"],                       
   "dependencies":{},     
   "relatedPackages":{},     

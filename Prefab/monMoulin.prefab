@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1033489446091350550}
-  - component: {fileID: 7085713849852288676}
+  - component: {fileID: 5245772674601253380}
   m_Layer: 0
   m_Name: Rotation Anchor
   m_TagString: Untagged
@@ -34,7 +34,7 @@ Transform:
   - {fileID: 921054608183414168}
   m_Father: {fileID: 8763936058028074424}
   m_LocalEulerAnglesHint: {x: 40.276, y: 0, z: 0}
---- !u!114 &7085713849852288676
+--- !u!114 &5245772674601253380
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,11 +43,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 608965429657812054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44dc0e667457804685945cb14d8f903, type: 3}
+  m_Script: {fileID: 11500000, guid: 25be8d687960bf0469706e2999b767ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_rotationSpeed: 720
-  m_inverse: 0
+  m_WhatToRotate: {fileID: 1033489446091350550}
+  m_globalSpeedInAngle: 360
+  m_rotateAxis: {x: 0, y: 0, z: 1}
+  m_Space: 1
 --- !u!1 &3392193610137112989
 GameObject:
   m_ObjectHideFlags: 0
